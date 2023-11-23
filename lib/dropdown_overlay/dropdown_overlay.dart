@@ -6,10 +6,10 @@ const _defaultOverlayIconUp = Icon(
   size: 20,
 );
 
-const _headerPadding = EdgeInsets.all(16.0);
+const _headerPadding = EdgeInsets.zero);
 const _overlayOuterPadding = EdgeInsets.only(bottom: 12, left: 12, right: 12);
 const _overlayShadowOffset = Offset(0, 6);
-const _listItemPadding = EdgeInsets.symmetric(vertical: 12, horizontal: 16);
+const _listItemPadding = EdgeInsets.zero;
 
 class _DropdownOverlay<T> extends StatefulWidget {
   final List<T> items;
